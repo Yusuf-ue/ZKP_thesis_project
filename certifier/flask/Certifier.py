@@ -5,7 +5,7 @@ import subprocess
 import json
 import time
 
-# Create a Flask app
+# Create a Flask app 
 app = Flask(__name__)
 
 # A simple in-memory store for products (could be replaced with a database in a real app)
