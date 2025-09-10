@@ -1,0 +1,64 @@
+# --------------------
+# Python / Flask
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Flask / runtime
+instance/
+*.db
+*.sqlite3
+*.log
+
+# --------------------
+# Rust / ZKP projects
+# --------------------
+# Ignore build artifacts in all subfolders
+**/target/
+
+# Ignore Rust ZKP binaries if you prefer
+**/target/release/*_guest
+**/target/release/*_host
+
+# --------------------
+# OS / editor
+# --------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --------------------
+# Optional local files
+# --------------------
+# If you store local product/proof JSON files
+**/products_db.json
+**/proof_store.json
+
+# --------------------
+# Others
+# --------------------
+Info.txt
+
+# --------------------
+  junk
+# --------------------
+*.DS_Store
+*.swp
+*.tmp
+*.bak
+*.lnk
+*.Zone.Identifier
+Thumbs.db
+
+# Ignore Zone.Identifier files
+**/*.Identifier
